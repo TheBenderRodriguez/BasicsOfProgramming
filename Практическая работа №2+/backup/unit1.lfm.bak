@@ -1,0 +1,48 @@
+object Form1: TForm1
+  Left = 297
+  Height = 194
+  Top = 406
+  Width = 721
+  Caption = 'Form1'
+  ClientHeight = 194
+  ClientWidth = 721
+  LCLVersion = '1.6.2.0'
+  object StringGrid1: TStringGrid
+    Left = 8
+    Height = 40
+    Top = 8
+    Width = 704
+    ColCount = 10
+    FixedCols = 0
+    FixedRows = 0
+    RowCount = 1
+    TabOrder = 0
+  end
+  object StringGrid2: TStringGrid
+    Left = 8
+    Height = 44
+    Top = 64
+    Width = 704
+    ColCount = 10
+    FixedCols = 0
+    FixedRows = 0
+    RowCount = 1
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 520
+    Height = 25
+    Top = 144
+    Width = 192
+    Caption = 'Сгенерировать '
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 1
+    Top = 159
+    Width = 1
+    ParentColor = False
+  end
+end
